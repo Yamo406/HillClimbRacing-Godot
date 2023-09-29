@@ -38,7 +38,6 @@ texture = ExtResource( 5 )
 [node name="Head" type="RigidBody2D" parent="." groups=["Player"]]
 position = Vector2( -59, -106 )
 collision_layer = 4
-mass = 0.15
 
 [node name="Sprite" type="Sprite" parent="Head"]
 texture = ExtResource( 4 )
@@ -49,12 +48,10 @@ shape = SubResource( 1 )
 [node name="HeadSpring" type="PinJoint2D" parent="Head"]
 node_a = NodePath("..")
 node_b = NodePath("../..")
-softness = 11.0
 
 [node name="NeckJoint" type="PinJoint2D" parent="Head"]
 node_a = NodePath("..")
 node_b = NodePath("../..")
-softness = 11.0
 
 [node name="Car" type="Sprite" parent="."]
 texture = ExtResource( 1 )

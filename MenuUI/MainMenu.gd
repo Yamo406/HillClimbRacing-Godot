@@ -2,12 +2,11 @@ extends Control
 
 
 func _ready():
-	#$VBoxContainer/Start.grab_focus()
-	pass
-
+	$ColorRect/VBoxContainer/Start.grab_focus()
+	
 
 func _on_Start_pressed():
-	get_tree().change_scene("res://Levels/Level1.tscn")
+	get_tree().change_scene("res://MenuUI/LevelPicker.tscn")
 
 
 func _on_Quit_pressed():
