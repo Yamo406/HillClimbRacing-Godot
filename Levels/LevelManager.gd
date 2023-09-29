@@ -4,7 +4,7 @@ var coins_collected = 0
 
 func coinScore(amount):
 	coins_collected += amount
-	$UI/UI/HBoxContainer/Counters/Coins/Background/Coins.text = str(coins_collected)
+	$UI/UI/HBoxContainer/Counters/Coins/Coins.text = str(coins_collected)
 	
 func update_fuel(value):
 	$UI/UI/HBoxContainer/Counters2/Fuel/HBoxContainer/CenterContainer/ProgressBar.value = value

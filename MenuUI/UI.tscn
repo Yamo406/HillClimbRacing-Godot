@@ -17,19 +17,19 @@ margin_bottom = 20.0
 
 [node name="HBoxContainer" type="VBoxContainer" parent="UI"]
 margin_right = 1880.0
-margin_bottom = 214.0
+margin_bottom = 109.0
 
 [node name="Counters" type="HBoxContainer" parent="UI/HBoxContainer"]
 margin_right = 1880.0
-margin_bottom = 105.0
 
 [node name="Coins" parent="UI/HBoxContainer/Counters" instance=ExtResource( 1 )]
-margin_bottom = 105.0
+margin_right = 0.0
+margin_bottom = 0.0
 
 [node name="Counters2" type="HBoxContainer" parent="UI/HBoxContainer"]
-margin_top = 109.0
+margin_top = 4.0
 margin_right = 1880.0
-margin_bottom = 214.0
+margin_bottom = 109.0
 
 [node name="Fuel" parent="UI/HBoxContainer/Counters2" instance=ExtResource( 2 )]
 margin_right = 443.0
